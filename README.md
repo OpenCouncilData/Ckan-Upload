@@ -2,6 +2,8 @@
 
 This simple command-line tool automates the process of updating an existing resource (file) in a CKAN based repository such as data.gov.au or data.vic.gov.au. It is intended to allow councils to automate the regular updating of data.
 
+Developed by Steve Bennett, as part of the OpenCouncilData toolkit funded by MAV Technology, and released under the MIT License.
+
 Pre-requisites: Python, Pip, Git
 
 ### Installation:
