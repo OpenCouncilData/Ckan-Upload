@@ -22,5 +22,5 @@ pip install ckanapi argparse
 4. Now run:
 
 ```
-python ckan-upload.py --key YOURAPIKEYHERE  --resource http://YOURRESOURCEURLHERE /path/to/MYFILE.csv
+python ckan-upload.py --apikey YOURAPIKEYHERE  --resource http://YOURRESOURCEURLHERE /path/to/MYFILE.csv
 ```
