@@ -11,7 +11,7 @@ parser = MyParser(description='Uploads a file to update an existing resource in 
 parser.add_argument('--apikey', required=True, help='Your API key for the portal. Find this on your data.gov.au user page.')
 parser.add_argument('--resource', required=True, help='URL of the resource to update (eg http://data.gov.au/dataset/geelong-drain-pipes/resource/970d4dfd-4313-45ee-be9a-6b69b47483f1)')
 parser.add_argument('filename', help='The file that will be uploaded in place of the existing resource.')
-parser
+
 try:
     args = parser.parse_args()
 except:
