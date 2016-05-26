@@ -26,4 +26,4 @@ ckan = ckanapi.RemoteCKAN(server, apikey=args.apikey,user_agent='opencouncildata
 
 resourceinfo = ckan.action.resource_show(id=resourceid)
 print "Uploading %s to \"%s\". (Previously modified at %s)" % (args.filename, resourceinfo["name"], resourceinfo["last_modified"])
-ckan.action.resource_update(id=resourceid,upload=open(args.filename), format=resourceinfo["format"])
+ckan.action.resource_update(id=resourceid,upload=open(args.filename,'rb'), format=resourceinfo["format"])
