@@ -4,7 +4,7 @@ This simple command-line tool automates the process of updating an existing reso
 
 Developed by Steve Bennett, as part of the OpenCouncilData toolkit funded by MAV Technology, and released under the MIT License.
 
-Pre-requisites: Python, Pip, Git
+Pre-requisites: Python 2 (not Python 3), Pip, Git
 
 ### Installation:
 
